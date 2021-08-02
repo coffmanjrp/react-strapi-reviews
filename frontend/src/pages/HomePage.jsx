@@ -22,8 +22,6 @@ const HomePage = () => {
   if (error) return <p>Error</p>;
   if (loading) return <p>Loading....</p>;
 
-  console.log(data);
-
   return (
     <div>
       {data.reviews.map((review) => (

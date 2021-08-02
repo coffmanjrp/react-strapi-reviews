@@ -27,8 +27,6 @@ const Category = () => {
   if (error) return <p>Error</p>;
   if (loading) return <p>Loading....</p>;
 
-  console.log(data);
-
   return (
     <div>
       <h2>{data.category.name}</h2>
