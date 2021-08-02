@@ -4,13 +4,8 @@ import useFetch from '../hooks/useFetch';
 const HomePage = () => {
   const { loading, error, data } = useFetch('/reviews');
 
-  if (error) {
-    return <p>Error</p>;
-  }
-
-  if (loading) {
-    return <p>Loading....</p>;
-  }
+  if (error) return <p>Error</p>;
+  if (loading) return <p>Loading....</p>;
 
   console.log(data);
 
