@@ -17,7 +17,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route path="/details/:id" component={ReviewDetails} />
-            <Route path="/category/id" component={Category} />
+            <Route path="/category/:id" component={Category} />
           </Switch>
         </div>
       </ApolloProvider>
