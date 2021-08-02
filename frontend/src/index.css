@@ -45,3 +45,29 @@ a {
   font-size: 1.5rem;
   color: var(--primary-color);
 }
+
+/* Review list */
+
+.review-card {
+  position: relative;
+  margin: 60px auto;
+  padding: 1px 20px 20px 90px;
+  background-color: #fff;
+}
+
+.review-card .rating {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 90px;
+  height: 90px;
+  background-color: var(--primary-color);
+  font-size: 3rem;
+  color: var(--light-color);
+  text-align: center;
+}
+
+.review-card small {
+  margin-right: 10px;
+  color: #777;
+}
